@@ -1,0 +1,1 @@
+python3 recommender.py | tee -a logs/run_recommender_log.txt

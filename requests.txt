@@ -1,0 +1,16 @@
+# This file has sample HTTP requests
+
+### 
+
+# Cold start with no user specified
+GET http://0.0.0.0:80/api/v1/recommendations HTTP/1.1
+content-type: application/json
+
+### 
+GET http://0.0.0.0:80/api/v1/recommendations?user_id=2bc424123e0a12d29c488bb6e565fe98d0a49b46 HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://0.0.0.0:80/api/v1/recommendations?user_id=dae20ce165bd1f86bd762c246df93efc27e16774 HTTP/1.1
+content-type: application/json

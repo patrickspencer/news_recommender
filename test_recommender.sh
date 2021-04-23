@@ -1,0 +1,1 @@
+python3 test_recommender.py | tee logs/test_recommender_log.py

@@ -1,0 +1,1 @@
+python3 newsrecommender/src/precompute_relationships.py | tee -a logs/precompute_relationships_log.txt
